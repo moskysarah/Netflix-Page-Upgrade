@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+  </head>
+
+    <body>
+        <div class="container-parent">
+             <img class="img" src="image/imagecouch.jpeg" alt="image figma">
+            <div class="child">
+                <div class="svg__content">
+                    <img src="image/icon.svg" alt="logo svg">
+                </div>
+                <div class="text__1">
+                  <h1 class="h1">Login</h1>
+                </div>
+                <div class="text__2">
+                    <h2 class="h2">Login with the data you entered during your registration.</h2>
+                </div>
+                    <form  id="myForm"  action="post">
+                        <div class="input-container">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="sarahmosky@gmail.com" required>
+                            <div class="validation-message" id="email-validation">Email required</div>
+                        </div>
+                        <div class="input-container">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="********" required>
+                            <div class="validation-message" id="password-validation">Password required</div>
+                        </div>
+                        <div>
+                            <button class="button" type="submit" id="btn"><span class="login">Log in</span></button>
+                        </div>
+                          <p class="password_msage">Did you forget your password?</p>
+                    </form>
+                    <div class="create">
+                        <div class="signup">
+                          <P class="sign">Sign up</P>
+                        </div>
+                        <div class="under_text">
+                          <P class="text-login">Login with the data you entered during your registration.</P>
+                        </div>
+                        <button class="buttonCreate" type="submit" id="btnCreate"><span class="create_text">Create account</span></button>
+                    </div>
+                    <div class="container-footer">
+                        <div class="footer-name">
+                            <P class="text-feets">Cookies</P>
+                            <P class="text-feets">Legal policy</P>
+                            <P class="text-feets">Made with love in nowhere</P>
+                            <P class="copyright">Copyright 2024</P>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
